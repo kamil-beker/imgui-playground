@@ -13,3 +13,4 @@ imgui.ini
 imgui_playground.out
 build/
 libIMGUI.a
+.DS_Store
