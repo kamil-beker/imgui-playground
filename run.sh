@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
+set -euo pipefail
+
+BBlue='\033[1;34m'
+Color_Off='\033[0m'
 
 log_info () 
 {
     message="${1}"
     now=$(date +"%T")
-    echo "${now} INFO ${message}"
+    echo -e "${BBlue}${now} INFO${Color_Off} ${message}"
 }
 
 log_info "Run imgui_playground."
