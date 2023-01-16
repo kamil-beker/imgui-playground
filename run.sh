@@ -11,6 +11,6 @@ log_info ()
     echo -e "${BBlue}${now} INFO${Color_Off} ${message}"
 }
 
-log_info "Run imgui_playground."
+log_info "Runnning imgui_playground."
 ./build/imgui_playground.out
-log_info "Exit imgui_playground."
+log_info "Exiting imgui_playground."
